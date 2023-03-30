@@ -17,13 +17,13 @@ export default defineType({
       type: 'boolean',
     }),
     defineField({
-      name: 'UserName',
+      name: 'username',
       title: 'Username',
       type: 'string',
     }),
     defineField({
       name: 'profileImg',
-      title: 'profile image',
+      title: 'Profile image',
       type: 'string',
     }),
     defineField({

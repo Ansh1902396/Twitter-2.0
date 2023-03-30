@@ -15,7 +15,7 @@ function Tweetbox() {
     <div className="flex space-x-2 p-5">
       <img
         className="h-14 w-14 object-cover rounded-full mt-4"
-        src="https://links.papareact.com/gll"
+        src="https://pbs.twimg.com/profile_images/1622253557415284742/6ctU3L2f_400x400.jpg"
         alt=""
       />
 

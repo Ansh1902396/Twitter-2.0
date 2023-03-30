@@ -41,7 +41,7 @@ export const getServerSideProps:GetServerSideProps  = async (context) =>{
   const tweets  = await fetchTweets(); 
   return {
     props : {
-
+      tweets,
     }
   }
 }

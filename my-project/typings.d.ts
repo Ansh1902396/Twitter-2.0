@@ -1,3 +1,4 @@
+
 export interface Tweet extends TweetBody {
     _id : string 
     _createdAt : string
@@ -5,11 +6,12 @@ export interface Tweet extends TweetBody {
     _rev :string 
     _type :'tweet'
     blockTweet : boolean
+    
 }
 
-export const TweetBody  ={
-    text  :string,
-    username :string,
+export type TweetBody  ={
+    Text  :string,
+    UserName :string,
     profileImg :string, 
-    Img?: string
+    image?: string
 }
