@@ -7,7 +7,6 @@ import {
   ArrowUpOnSquareIcon, 
   ChatBubbleLeftIcon, 
   ArrowsRightLeftIcon
-
 } from "@heroicons/react/24/outline"
 import { fetchComments } from "@/utils/fetchComments";
 
